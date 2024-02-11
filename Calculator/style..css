@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@100&family=Courgette&family=Crimson+Text&family=Dancing+Script:wght@700&family=Great+Vibes&family=Kalam&family=Kaushan+Script&family=Lato&family=Manrope:wght@300&family=Marck+Script&family=Merriweather:wght@300;400&family=Mitr:wght@500&family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@500&family=REM&family=Roboto&family=Roboto+Condensed&family=Signika+Negative:wght@400;600&family=Signika:wght@300;500&family=Sora&family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  background: #ffffff;
+  background: #415a77;
+}
+.calc {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  background: black;
+  box-shadow: 0px 3px 15px rgba(113, 115, 199, 0.5);
+}
+input {
+  width: 320px;
+  border: none;
+  border: 1px solid #717377;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+  text-align: right;
+  font-size: 40px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  background: transparent;
+  background: #717377b4;
+  color: #ffffff;
+  cursor: pointer;
+}
+.equalbtn {
+  background-color: #fb7c14;
+}
+.operator {
+  color: #6daa0a;
+  font-size: 23px;
+}
