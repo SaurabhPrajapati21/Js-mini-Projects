@@ -1,4 +1,4 @@
 # Js-mini-Projects
 
 
-"Author: Saurabh Prajapati"
+"Author: Saurabh Prajapati @daksh"
