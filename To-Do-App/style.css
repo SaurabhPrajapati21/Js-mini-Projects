@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@100&family=Courgette&family=Crimson+Text&family=Dancing+Script:wght@700&family=Great+Vibes&family=Kalam&family=Kaushan+Script&family=Lato&family=Manrope:wght@300&family=Marck+Script&family=Merriweather:wght@300;400&family=Mitr:wght@500&family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@500&family=REM&family=Roboto&family=Roboto+Condensed&family=Signika+Negative:wght@400;600&family=Signika:wght@300;500&family=Sora&family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 10px;
+}
+
+.todoapp {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 60px;
+  border-radius: 10px;
+}
+
+.todoapp h2 {
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todoapp h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-weight: 16px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+ul li {
+   position: relative;
+  list-style: none;
+  list-style-type: decimal;
+  font-size: 16px;
+  padding: 12px 8px 12px 20px;
+  user-select: none;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+
+ul li.checked {
+  color: #555;
+  text-decoration: line-through;
+}
+
+ul li span{
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  width: 38px;
+  height: 38px;
+  border-radius:  50%;
+  font-size: 19px;
+  line-height: 40px;
+  color: #555;
+  text-align: center;
+  color: #ff3333;
+  font-weight: 600;
+}
+ul li span:hover{
+
+   background-color: #ff3333; 
+    color: #fff; 
+}
+
+.add2{
+ padding: 12px 30px;
+ 
+}
+
+.add2div{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
