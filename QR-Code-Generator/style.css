@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@100&family=Courgette&family=Crimson+Text&family=Dancing+Script:wght@700&family=Great+Vibes&family=Kalam&family=Kaushan+Script&family=Lato&family=Manrope:wght@300&family=Marck+Script&family=Merriweather:wght@300;400&family=Mitr:wght@500&family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@500&family=REM&family=Roboto&family=Roboto+Condensed&family=Signika+Negative:wght@400;600&family=Signika:wght@300;500&family=Sora&family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #262a2f;
+}
+.container {
+  width: 400px;
+  padding: 25px 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background: #fff;
+}
+.container p {
+  font-weight: 600;
+  font-style: 15px;
+  margin-bottom: 8px;
+}
+.container input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #494eea;
+  outline: 0;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+}
+.container button {
+  width: 100%;
+  height: 50px;
+  background: #494eea;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+#imgbox {
+  width: 200px;
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: max-height 1s;
+}
+#imgbox img {
+  width: 100%;
+  padding: 10px;
+}
+#imgbox.showimg {
+  max-height: 300px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+}
+
+.error {
+  animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.addBrcolor {
+  border: 1px solid red;
+}
+
+.error {
+  border: 1px solid red;
+}
