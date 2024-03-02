@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@100&family=Courgette&family=Crimson+Text&family=Dancing+Script:wght@700&family=Great+Vibes&family=Kalam&family=Kaushan+Script&family=Lato&family=Manrope:wght@300&family=Marck+Script&family=Merriweather:wght@300;400&family=Mitr:wght@500&family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@500&family=REM&family=Roboto&family=Roboto+Condensed&family=Signika+Negative:wght@400;600&family=Signika:wght@300;500&family=Sora&family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #002339;
+  color: #fff;
+}
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+.display {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  padding: 20px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+.container button img {
+  width: 28px;
+  margin-right: 10px;
+}
+.container button {
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-weight: 300;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
